@@ -13,7 +13,7 @@ backend:
   repo: LianHua/hugo
   branch: main
   # Cloudflare Worker OAuth 代理地址（部署 oauth/worker.js 后填入，例如 https://decap-oauth.xxx.workers.dev）
-  base_url: https://REPLACE_WORKER_URL
+  base_url: https://decap-oauth.pages.dev
   auth_endpoint: /auth
 
 # 站点地址（公开网页仓库的地址，用于预览等）
