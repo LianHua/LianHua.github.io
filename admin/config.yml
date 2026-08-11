@@ -12,7 +12,7 @@ backend:
   # 指向【私密源码仓库】，Decap 写入的内容只存在私密库，网页仓库只放构建产物
   repo: LianHua/hugo
   branch: main
-  # Cloudflare Worker OAuth 代理地址（部署 oauth/worker.js 后填入，例如 https://decap-oauth.xxx.workers.dev）
+  # Cloudflare Worker OAuth 代理地址（已部署为 https://oauth.hitz.workers.dev）
   base_url: https://oauth.hitz.workers.dev
   auth_endpoint: /auth
 
