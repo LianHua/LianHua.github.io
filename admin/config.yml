@@ -1,0 +1,70 @@
+# ============================================================
+# Decap CMS 配置
+# 后端使用 GitHub（需配合 Cloudflare Worker OAuth 代理）
+# 占位符会在推送前被替换：
+#   GITHUB_USER         -> 你的 GitHub 用户名
+#   REPO_NAME           -> 仓库名
+#   REPLACE_WORKER_URL  -> 你部署的 Cloudflare Worker 地址
+# ============================================================
+
+backend:
+  name: github
+  # 指向【私密源码仓库】，Decap 写入的内容只存在私密库，网页仓库只放构建产物
+  repo: LianHua/hugo
+  branch: main
+  # Cloudflare Worker OAuth 代理地址（部署 oauth/worker.js 后填入，例如 https://decap-oauth.xxx.workers.dev）
+  base_url: https://REPLACE_WORKER_URL
+  auth_endpoint: /auth
+
+# 站点地址（公开网页仓库的地址，用于预览等）
+site_url: https://LianHua.github.io/
+
+# 媒体文件存放位置
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+# 发布模式：editorial_workflow 需要 OAuth App 具备创建 PR 的权限
+publish_mode: editorial_workflow
+
+collections:
+  - name: "posts"
+    label: "博客文章"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string", required: true }
+      - { label: "发布日期", name: "date", widget: "datetime", required: true }
+      - { label: "草稿", name: "draft", widget: "boolean", default: false }
+      - { label: "摘要", name: "summary", widget: "text" }
+      - { label: "封面图", name: "cover", widget: "image", required: false }
+      - { label: "分类", name: "categories", widget: "list", required: false }
+      - { label: "标签", name: "tags", widget: "list", required: false }
+      - { label: "正文", name: "body", widget: "markdown", required: true }
+
+  - name: "pages"
+    label: "独立页面"
+    files:
+      - name: "about"
+        label: "关于页"
+        file: "content/about.md"
+        fields:
+          - { label: "标题", name: "title", widget: "string" }
+          - { label: "描述", name: "description", widget: "text" }
+          - { label: "正文", name: "body", widget: "markdown" }
+
+  - name: "links"
+    label: "友情链接数据"
+    files:
+      - name: "links-data"
+        label: "links.json"
+        file: "data/links.json"
+        fields:
+          - name: "links"
+            label: "友链列表"
+            widget: "list"
+            fields:
+              - { label: "名称", name: "title", widget: "string" }
+              - { label: "网址", name: "website", widget: "string" }
+              - { label: "描述", name: "description", widget: "text" }
+              - { label: "头像文件", name: "image", widget: "string" }

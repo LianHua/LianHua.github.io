@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on LianHua 的博客</title><link>https://LianHua.github.io/tags/markdown/</link><description>Recent content in Markdown on LianHua 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 11 Aug 2026 10:36:17 +0800</lastBuildDate><atom:link href="https://LianHua.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown 写作示例</title><link>https://LianHua.github.io/posts/markdown-demo/</link><pubDate>Mon, 10 Aug 2026 20:00:00 +0800</pubDate><guid>https://LianHua.github.io/posts/markdown-demo/</guid><description>&lt;h2 id="标题示例"&gt;&lt;a href="#%e6%a0%87%e9%a2%98%e7%a4%ba%e4%be%8b" class="header-anchor"&gt;&lt;/a&gt;标题示例
+&lt;/h2&gt;&lt;h3 id="三级标题"&gt;&lt;a href="#%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;三级标题
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;列表项一&lt;/li&gt;
+&lt;li&gt;列表项二
+&lt;ul&gt;
+&lt;li&gt;嵌套项&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;有序一&lt;/li&gt;
+&lt;li&gt;有序二&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;引用块示例：Stack 魔改版对引用做了圆角与左侧色条美化。&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;表格&lt;/th&gt;
+					&lt;th&gt;说明&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;A&lt;/td&gt;
+					&lt;td&gt;内容 A&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;B&lt;/td&gt;
+					&lt;td&gt;内容 B&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;div class="note note-tip"&gt;
+ 
+ &lt;div class="note-body"&gt;
+善用 Stack 魔改版的 `note` 短代码可以让提示信息更醒目。
+支持类型：`note` / `tip` / `info` / `warning` / `danger`。
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;行内代码如 &lt;code&gt;hugo new content posts/hello.md&lt;/code&gt; 也会自动美化。&lt;/p&gt;</description></item></channel></rss>
