@@ -68,3 +68,36 @@ collections:
               - { label: "网址", name: "website", widget: "string" }
               - { label: "描述", name: "description", widget: "text" }
               - { label: "头像文件", name: "image", widget: "string" }
+
+  - name: "gallery"
+    label: "图集"
+    folder: "content/gallery"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string", required: true }
+      - { label: "日期", name: "date", widget: "datetime", required: true }
+      - { label: "封面图", name: "cover", widget: "image", required: false }
+      - { label: "描述", name: "description", widget: "text" }
+      - name: "photos"
+        label: "照片列表"
+        widget: "list"
+        summary: "{{fields.caption}}"
+        fields:
+          - { label: "图片", name: "src", widget: "image", required: true }
+          - { label: "说明", name: "caption", widget: "string" }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  - name: "douban"
+    label: "豆瓣"
+    folder: "content/douban"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string", required: true }
+      - { label: "类型", name: "doubanType", widget: "select", options: ["书", "电影", "音乐"], default: "书" }
+      - { label: "评分", name: "rating", widget: "number", min: 0, max: 5, step: 0.5, default: 5 }
+      - { label: "封面图", name: "cover", widget: "image", required: false }
+      - { label: "豆瓣链接", name: "link", widget: "string" }
+      - { label: "日期", name: "date", widget: "datetime", required: false }
+      - { label: "短评", name: "body", widget: "markdown" }

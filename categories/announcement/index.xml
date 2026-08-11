@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>公告 on LianHua 的博客</title><link>https://LianHua.github.io/categories/%E5%85%AC%E5%91%8A/</link><description>Recent content in 公告 on LianHua 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 11 Aug 2026 15:46:16 +0800</lastBuildDate><atom:link href="https://LianHua.github.io/categories/%E5%85%AC%E5%91%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>欢迎使用 Hugo + Stack 魔改版</title><link>https://LianHua.github.io/posts/welcome/</link><pubDate>Tue, 11 Aug 2026 10:00:00 +0800</pubDate><guid>https://LianHua.github.io/posts/welcome/</guid><description>&lt;h2 id="你好世界-"&gt;&lt;a href="#%e4%bd%a0%e5%a5%bd%e4%b8%96%e7%95%8c-" class="header-anchor"&gt;&lt;/a&gt;你好，世界 👋
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>公告 on LianHua 的博客</title><link>https://LianHua.github.io/categories/announcement/</link><description>Recent content in 公告 on LianHua 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://LianHua.github.io/categories/announcement/index.xml" rel="self" type="application/rss+xml"/><item><title>欢迎使用 Hugo + Stack 魔改版</title><link>https://LianHua.github.io/posts/welcome/</link><pubDate>Tue, 11 Aug 2026 10:00:00 +0800</pubDate><guid>https://LianHua.github.io/posts/welcome/</guid><description>&lt;h2 id="你好世界-"&gt;&lt;a href="#%e4%bd%a0%e5%a5%bd%e4%b8%96%e7%95%8c-" class="header-anchor"&gt;&lt;/a&gt;你好，世界 👋
 &lt;/h2&gt;&lt;p&gt;这是使用 &lt;strong&gt;Hugo Extended + Stack 魔改版 + Decap CMS&lt;/strong&gt; 搭建的博客示例文章。&lt;/p&gt;
 
 
@@ -32,7 +32,15 @@
 &lt;div class="friend-links"&gt;
  
  &lt;a class="friend-link" href="https://gohugo.io/" target="_blank" rel="noopener"&gt;
- &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/hugo.png" alt="Hugo 官网" loading="lazy" /&gt;
+ 
+ &lt;span class="friend-link-avatar-wrap"&gt;
+ 
+ &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/hugo.png" alt="Hugo 官网"
+ loading="lazy"
+ onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /&gt;
+ &lt;span class="friend-link-letter" style="display:none"&gt;H&lt;/span&gt;
+ 
+ &lt;/span&gt;
  &lt;div class="friend-link-info"&gt;
  &lt;span class="friend-link-title"&gt;Hugo 官网&lt;/span&gt;
  &lt;span class="friend-link-desc"&gt;The world&amp;#39;s fastest framework for building websites.&lt;/span&gt;
@@ -40,7 +48,15 @@
  &lt;/a&gt;
  
  &lt;a class="friend-link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"&gt;
- &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/stack.png" alt="Stack 主题" loading="lazy" /&gt;
+ 
+ &lt;span class="friend-link-avatar-wrap"&gt;
+ 
+ &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/stack.png" alt="Stack 主题"
+ loading="lazy"
+ onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /&gt;
+ &lt;span class="friend-link-letter" style="display:none"&gt;S&lt;/span&gt;
+ 
+ &lt;/span&gt;
  &lt;div class="friend-link-info"&gt;
  &lt;span class="friend-link-title"&gt;Stack 主题&lt;/span&gt;
  &lt;span class="friend-link-desc"&gt;Card-style Hugo theme designed for bloggers.&lt;/span&gt;
@@ -48,7 +64,15 @@
  &lt;/a&gt;
  
  &lt;a class="friend-link" href="https://decapcms.org/" target="_blank" rel="noopener"&gt;
- &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/decap.png" alt="Decap CMS" loading="lazy" /&gt;
+ 
+ &lt;span class="friend-link-avatar-wrap"&gt;
+ 
+ &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/decap.png" alt="Decap CMS"
+ loading="lazy"
+ onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /&gt;
+ &lt;span class="friend-link-letter" style="display:none"&gt;D&lt;/span&gt;
+ 
+ &lt;/span&gt;
  &lt;div class="friend-link-info"&gt;
  &lt;span class="friend-link-title"&gt;Decap CMS&lt;/span&gt;
  &lt;span class="friend-link-desc"&gt;A Git-based CMS for static site generators.&lt;/span&gt;
