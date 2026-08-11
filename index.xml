@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LianHua 的博客</title><link>https://LianHua.github.io/</link><description>Recent content on LianHua 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 11 Aug 2026 15:20:29 +0800</lastBuildDate><atom:link href="https://LianHua.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>欢迎使用 Hugo + Stack 魔改版</title><link>https://LianHua.github.io/posts/welcome/</link><pubDate>Tue, 11 Aug 2026 10:00:00 +0800</pubDate><guid>https://LianHua.github.io/posts/welcome/</guid><description>&lt;h2 id="你好世界-"&gt;&lt;a href="#%e4%bd%a0%e5%a5%bd%e4%b8%96%e7%95%8c-" class="header-anchor"&gt;&lt;/a&gt;你好，世界 👋
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LianHua 的博客</title><link>https://LianHua.github.io/</link><description>Recent content on LianHua 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 11 Aug 2026 15:44:08 +0800</lastBuildDate><atom:link href="https://LianHua.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Stack 魔改美化</title><link>https://LianHua.github.io/posts/2026-08-11-hugo-stack-%E9%AD%94%E6%94%B9%E7%BE%8E%E5%8C%96/</link><pubDate>Tue, 11 Aug 2026 15:41:00 +0800</pubDate><guid>https://LianHua.github.io/posts/2026-08-11-hugo-stack-%E9%AD%94%E6%94%B9%E7%BE%8E%E5%8C%96/</guid><description>&lt;h2 id="全局"&gt;&lt;a href="#%e5%85%a8%e5%b1%80" class="header-anchor"&gt;&lt;/a&gt;全局
+&lt;/h2&gt;&lt;h3 id="零碎玩意"&gt;&lt;a href="#%e9%9b%b6%e7%a2%8e%e7%8e%a9%e6%84%8f" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e9%9b%b6%e7%a2%8e%e7%8e%a9%e6%84%8f" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;零碎玩意
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h3 id="菜单栏圆角"&gt;&lt;a href="#%e8%8f%9c%e5%8d%95%e6%a0%8f%e5%9c%86%e8%a7%92" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e8%8f%9c%e5%8d%95%e6%a0%8f%e5%9c%86%e8%a7%92" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;菜单栏圆角
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h3 id="滚动条"&gt;&lt;a href="#%e6%bb%9a%e5%8a%a8%e6%9d%a1" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e6%bb%9a%e5%8a%a8%e6%9d%a1" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;滚动条
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h3 id="加载进度条"&gt;&lt;a href="#%e5%8a%a0%e8%bd%bd%e8%bf%9b%e5%ba%a6%e6%9d%a1" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%8a%a0%e8%bd%bd%e8%bf%9b%e5%ba%a6%e6%9d%a1" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;加载进度条
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/layouts/partials/footer/custom.html&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h3 id="深色模式开关图标"&gt;&lt;a href="#%e6%b7%b1%e8%89%b2%e6%a8%a1%e5%bc%8f%e5%bc%80%e5%85%b3%e5%9b%be%e6%a0%87" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e6%b7%b1%e8%89%b2%e6%a8%a1%e5%bc%8f%e5%bc%80%e5%85%b3%e5%9b%be%e6%a0%87" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;深色模式开关图标
+&lt;/h3&gt;&lt;p&gt;不太喜欢默认图标，默认图标不够直观，当然你可以不换
+我选取了 &lt;a class="link" href="https://tablericons.com/" target="_blank" rel="noopener"
+ &gt;Tabler Icons&lt;/a&gt; 中的 &lt;code&gt;sun-high&lt;/code&gt; 和 &lt;code&gt;moon-stars&lt;/code&gt; 这两个图标
+在 &lt;code&gt;/assets/scss/partials/sidebar.scss&lt;/code&gt; 第 154~180 行中将图标名进行修改，最终效果：&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;/layouts/partials/sidebar/left.html&lt;/code&gt; 第 91~97 行中将图标名进行修改，最终效果：&lt;/p&gt;
+&lt;h3 id="修改布局"&gt;&lt;a href="#%e4%bf%ae%e6%94%b9%e5%b8%83%e5%b1%80" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e4%bf%ae%e6%94%b9%e5%b8%83%e5%b1%80" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;修改布局
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/grid.scss&lt;/code&gt; 中修改 &lt;code&gt;left-sidebar&lt;/code&gt; 和 &lt;code&gt;right-sidebar&lt;/code&gt; 的描述：&lt;/p&gt;
+&lt;p&gt;把正文的占比改到了 70%, 原来的只有 50% 左右&lt;/p&gt;
+&lt;h2 id="页面"&gt;&lt;a href="#%e9%a1%b5%e9%9d%a2" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e9%a1%b5%e9%9d%a2" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;页面
+&lt;/h2&gt;&lt;h3 id="归档"&gt;&lt;a href="#%e5%bd%92%e6%a1%a3" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%bd%92%e6%a1%a3" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;归档
+&lt;/h3&gt;&lt;h4 id="双栏"&gt;&lt;a href="#%e5%8f%8c%e6%a0%8f" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%8f%8c%e6%a0%8f" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;双栏
+&lt;/h4&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h4 id="卡片缩放动画"&gt;&lt;a href="#%e5%8d%a1%e7%89%87%e7%bc%a9%e6%94%be%e5%8a%a8%e7%94%bb" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%8d%a1%e7%89%87%e7%bc%a9%e6%94%be%e5%8a%a8%e7%94%bb" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;卡片缩放动画
+&lt;/h4&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h3 id="友链三栏"&gt;&lt;a href="#%e5%8f%8b%e9%93%be%e4%b8%89%e6%a0%8f" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%8f%8b%e9%93%be%e4%b8%89%e6%a0%8f" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;友链三栏
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h3 id="首页"&gt;&lt;a href="#%e9%a6%96%e9%a1%b5" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e9%a6%96%e9%a1%b5" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;首页
+&lt;/h3&gt;&lt;h4 id="布局"&gt;&lt;a href="#%e5%b8%83%e5%b1%80" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%b8%83%e5%b1%80" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;布局
+&lt;/h4&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h4 id="右侧导航栏动画"&gt;&lt;a href="#%e5%8f%b3%e4%be%a7%e5%af%bc%e8%88%aa%e6%a0%8f%e5%8a%a8%e7%94%bb" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%8f%b3%e4%be%a7%e5%af%bc%e8%88%aa%e6%a0%8f%e5%8a%a8%e7%94%bb" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;右侧导航栏动画
+&lt;/h4&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h2 id="细节"&gt;&lt;a href="#%e7%bb%86%e8%8a%82" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e7%bb%86%e8%8a%82" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;细节
+&lt;/h2&gt;&lt;h3 id="首页欢迎横幅"&gt;&lt;a href="#%e9%a6%96%e9%a1%b5%e6%ac%a2%e8%bf%8e%e6%a8%aa%e5%b9%85" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e9%a6%96%e9%a1%b5%e6%ac%a2%e8%bf%8e%e6%a8%aa%e5%b9%85" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;首页欢迎横幅
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/layouts/index.html&lt;/code&gt; 的 &lt;code&gt;&amp;lt;section class=&amp;quot;article-list&amp;quot;&amp;gt;&lt;/code&gt; 前添加以下代码：&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h3 id="代码块"&gt;&lt;a href="#%e4%bb%a3%e7%a0%81%e5%9d%97" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e4%bb%a3%e7%a0%81%e5%9d%97" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;代码块
+&lt;/h3&gt;&lt;h4 id="macos-风格红绿灯图标"&gt;&lt;a href="#macos-%e9%a3%8e%e6%a0%bc%e7%ba%a2%e7%bb%bf%e7%81%af%e5%9b%be%e6%a0%87" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#macos-%e9%a3%8e%e6%a0%bc%e7%ba%a2%e7%bb%bf%e7%81%af%e5%9b%be%e6%a0%87" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;macOS 风格红绿灯图标
+&lt;/h4&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;static&lt;/code&gt; 文件夹下新建 &lt;code&gt;code-header.svg&lt;/code&gt;，写入以下代码：&lt;/p&gt;
+&lt;h4 id="显示语言和复制按钮"&gt;&lt;a href="#%e6%98%be%e7%a4%ba%e8%af%ad%e8%a8%80%e5%92%8c%e5%a4%8d%e5%88%b6%e6%8c%89%e9%92%ae" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e6%98%be%e7%a4%ba%e8%af%ad%e8%a8%80%e5%92%8c%e5%a4%8d%e5%88%b6%e6%8c%89%e9%92%ae" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;显示语言和复制按钮
+&lt;/h4&gt;&lt;p&gt;在 &lt;code&gt;/assets/ts/custom.ts&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码（可按需自行修改）：&lt;/p&gt;
+&lt;h3 id="固定块的高度"&gt;&lt;a href="#%e5%9b%ba%e5%ae%9a%e5%9d%97%e7%9a%84%e9%ab%98%e5%ba%a6" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%9b%ba%e5%ae%9a%e5%9d%97%e7%9a%84%e9%ab%98%e5%ba%a6" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;固定块的高度
+&lt;/h3&gt;&lt;p&gt;过长的内容影响观感，所以把 block 的高度限制在 20em，并隐藏滚动条
+在 &lt;code&gt;/assets/scss/partials/layout/article.scss&lt;/code&gt; 中进行如下修改（已隐藏无关片段）：&lt;/p&gt;
+&lt;h3 id="使图床链接的图片居中"&gt;&lt;a href="#%e4%bd%bf%e5%9b%be%e5%ba%8a%e9%93%be%e6%8e%a5%e7%9a%84%e5%9b%be%e7%89%87%e5%b1%85%e4%b8%ad" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e4%bd%bf%e5%9b%be%e5%ba%8a%e9%93%be%e6%8e%a5%e7%9a%84%e5%9b%be%e7%89%87%e5%b1%85%e4%b8%ad" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;使图床链接的图片居中
+&lt;/h3&gt;&lt;p&gt;来自 &lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/#%E4%BD%BF%E5%9B%BE%E5%BA%8A%E9%93%BE%E6%8E%A5%E7%9A%84%E5%9B%BE%E7%89%87%E5%B1%85%E4%B8%AD" target="_blank" rel="noopener"
+ &gt;Hugo Stack 主题装修笔记 Part 3 | 第三夏尔&lt;/a&gt;
+目前 Stack 默认只支持本地引用的图片居中，而在使用 url 图片链接时没有居中格式。在 &lt;code&gt;/assets/scss/partials/layout/article.scss&lt;/code&gt; Line 256 处（同级任意位置）增加以下代码：&lt;/p&gt;
+&lt;h3 id="键盘样式"&gt;&lt;a href="#%e9%94%ae%e7%9b%98%e6%a0%b7%e5%bc%8f" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e9%94%ae%e7%9b%98%e6%a0%b7%e5%bc%8f" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;键盘样式
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;p&gt;这样即可使用如下 Markdown 高级语法生成键盘样式：
+&lt;code&gt;&amp;lt;kbd&amp;gt;CTRL&amp;lt;/kbd&amp;gt; + &amp;lt;kbd&amp;gt;C&amp;lt;/kbd&amp;gt;&lt;/code&gt;
+CTRL + C&lt;/p&gt;
+&lt;h3 id="头像旋转"&gt;&lt;a href="#%e5%a4%b4%e5%83%8f%e6%97%8b%e8%bd%ac" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e5%a4%b4%e5%83%8f%e6%97%8b%e8%bd%ac" target="_blank" rel="noopener"
+ &gt;&lt;/a&gt;头像旋转
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
+&lt;h2 id="鸣谢"&gt;&lt;a href="#%e9%b8%a3%e8%b0%a2" class="header-anchor"&gt;&lt;/a&gt;鸣谢
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;&lt;a class="link" href="https://stack.jimmycai.com/" target="_blank" rel="noopener"
+ &gt;Stack 主题文档&lt;/a&gt;
+&lt;a class="link" href="https://log.vaaat.com/posts/bloglab/hugo-stack/modify-hugo/" target="_blank" rel="noopener"
+ &gt;Stack 主题的自定义 | L1nSn0w’s Log&lt;/a&gt;
+&lt;a class="link" href="https://lovir.cn/p/changes-in-my-blog/" target="_blank" rel="noopener"
+ &gt;博客最近的一些变化 | 小骆同学&lt;/a&gt;
+&lt;a class="link" href="https://lovir.cn/p/build-with-hugo02/" target="_blank" rel="noopener"
+ &gt;基于 Hugo 的网站搭建日志 02 | 小骆同学&lt;/a&gt;
+&lt;a class="link" href="https://blog.echosec.top/p/custom-hugo-theme-styles/" target="_blank" rel="noopener"
+ &gt;『Hugo』Hugo Styles | Echosec&lt;/a&gt;
+&lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener"
+ &gt;Hugo Stack 主题装修笔记 Part 3 | 第三夏尔&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;CopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopy&lt;a class="link" href="https://www.xalaok.top/tags/hugo/" target="_blank" rel="noopener"
+ &gt;Hugo&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/tags/stack/" target="_blank" rel="noopener"
+ &gt;Stack&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/tags/%E9%AD%94%E6%94%B9/" target="_blank" rel="noopener"
+ &gt;魔改&lt;/a&gt;&lt;/p&gt;</description></item><item><title>欢迎使用 Hugo + Stack 魔改版</title><link>https://LianHua.github.io/posts/welcome/</link><pubDate>Tue, 11 Aug 2026 10:00:00 +0800</pubDate><guid>https://LianHua.github.io/posts/welcome/</guid><description>&lt;h2 id="你好世界-"&gt;&lt;a href="#%e4%bd%a0%e5%a5%bd%e4%b8%96%e7%95%8c-" class="header-anchor"&gt;&lt;/a&gt;你好，世界 👋
 &lt;/h2&gt;&lt;p&gt;这是使用 &lt;strong&gt;Hugo Extended + Stack 魔改版 + Decap CMS&lt;/strong&gt; 搭建的博客示例文章。&lt;/p&gt;
 
 
