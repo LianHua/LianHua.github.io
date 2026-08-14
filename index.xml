@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>似水年华</title><link>https://LianHua.github.io/</link><description>Recent content on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 14 Aug 2026 17:26:38 +0800</lastBuildDate><atom:link href="https://LianHua.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Stack 魔改美化</title><link>https://LianHua.github.io/posts/2026-08-11-hugo-stack-%E9%AD%94%E6%94%B9%E7%BE%8E%E5%8C%96/</link><pubDate>Tue, 11 Aug 2026 15:41:00 +0800</pubDate><guid>https://LianHua.github.io/posts/2026-08-11-hugo-stack-%E9%AD%94%E6%94%B9%E7%BE%8E%E5%8C%96/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=b9124bce" alt="Featured image of post Hugo Stack 魔改美化" /&gt;&lt;h2 id="全局"&gt;&lt;a href="#%e5%85%a8%e5%b1%80" class="header-anchor"&gt;&lt;/a&gt;全局
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>似水年华</title><link>https://hitz.eu.org/</link><description>Recent content on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 14 Aug 2026 18:07:37 +0800</lastBuildDate><atom:link href="https://hitz.eu.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Stack 魔改美化</title><link>https://hitz.eu.org/posts/2026-08-11-hugo-stack-%E9%AD%94%E6%94%B9%E7%BE%8E%E5%8C%96/</link><pubDate>Tue, 11 Aug 2026 15:41:00 +0800</pubDate><guid>https://hitz.eu.org/posts/2026-08-11-hugo-stack-%E9%AD%94%E6%94%B9%E7%BE%8E%E5%8C%96/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=b9124bce" alt="Featured image of post Hugo Stack 魔改美化" /&gt;&lt;h2 id="全局"&gt;&lt;a href="#%e5%85%a8%e5%b1%80" class="header-anchor"&gt;&lt;/a&gt;全局
 &lt;/h2&gt;&lt;h3 id="零碎玩意"&gt;&lt;a href="#%e9%9b%b6%e7%a2%8e%e7%8e%a9%e6%84%8f" class="header-anchor"&gt;&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/post/stack-modify/#%e9%9b%b6%e7%a2%8e%e7%8e%a9%e6%84%8f" target="_blank" rel="noopener"
  &gt;&lt;/a&gt;零碎玩意
 &lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
@@ -97,7 +97,7 @@ CTRL + C&lt;/p&gt;
 &lt;p&gt;CopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopyCopy&lt;a class="link" href="https://www.xalaok.top/tags/hugo/" target="_blank" rel="noopener"
  &gt;Hugo&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/tags/stack/" target="_blank" rel="noopener"
  &gt;Stack&lt;/a&gt;&lt;a class="link" href="https://www.xalaok.top/tags/%E9%AD%94%E6%94%B9/" target="_blank" rel="noopener"
- &gt;魔改&lt;/a&gt;&lt;/p&gt;</description></item><item><title>欢迎使用 Hugo + Stack 魔改版</title><link>https://LianHua.github.io/posts/welcome/</link><pubDate>Tue, 11 Aug 2026 10:00:00 +0800</pubDate><guid>https://LianHua.github.io/posts/welcome/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=14c638b3" alt="Featured image of post 欢迎使用 Hugo + Stack 魔改版" /&gt;&lt;h2 id="你好世界-"&gt;&lt;a href="#%e4%bd%a0%e5%a5%bd%e4%b8%96%e7%95%8c-" class="header-anchor"&gt;&lt;/a&gt;你好，世界 👋
+ &gt;魔改&lt;/a&gt;&lt;/p&gt;</description></item><item><title>欢迎使用 Hugo + Stack 魔改版</title><link>https://hitz.eu.org/posts/welcome/</link><pubDate>Tue, 11 Aug 2026 10:00:00 +0800</pubDate><guid>https://hitz.eu.org/posts/welcome/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=14c638b3" alt="Featured image of post 欢迎使用 Hugo + Stack 魔改版" /&gt;&lt;h2 id="你好世界-"&gt;&lt;a href="#%e4%bd%a0%e5%a5%bd%e4%b8%96%e7%95%8c-" class="header-anchor"&gt;&lt;/a&gt;你好，世界 👋
 &lt;/h2&gt;&lt;p&gt;这是使用 &lt;strong&gt;Hugo Extended + Stack 魔改版 + Decap CMS&lt;/strong&gt; 搭建的博客示例文章。&lt;/p&gt;
 
 
@@ -134,7 +134,7 @@ CTRL + C&lt;/p&gt;
  
  &lt;span class="friend-link-avatar-wrap"&gt;
  
- &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/hugo.png" alt="Hugo 官网"
+ &lt;img class="friend-link-avatar" src="https://hitz.eu.org/images/links/hugo.png" alt="Hugo 官网"
  loading="lazy"
  onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /&gt;
  &lt;span class="friend-link-letter" style="display:none"&gt;H&lt;/span&gt;
@@ -150,7 +150,7 @@ CTRL + C&lt;/p&gt;
  
  &lt;span class="friend-link-avatar-wrap"&gt;
  
- &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/stack.png" alt="Stack 主题"
+ &lt;img class="friend-link-avatar" src="https://hitz.eu.org/images/links/stack.png" alt="Stack 主题"
  loading="lazy"
  onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /&gt;
  &lt;span class="friend-link-letter" style="display:none"&gt;S&lt;/span&gt;
@@ -166,7 +166,7 @@ CTRL + C&lt;/p&gt;
  
  &lt;span class="friend-link-avatar-wrap"&gt;
  
- &lt;img class="friend-link-avatar" src="https://LianHua.github.io/images/links/decap.png" alt="Decap CMS"
+ &lt;img class="friend-link-avatar" src="https://hitz.eu.org/images/links/decap.png" alt="Decap CMS"
  loading="lazy"
  onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /&gt;
  &lt;span class="friend-link-letter" style="display:none"&gt;D&lt;/span&gt;
@@ -184,7 +184,7 @@ CTRL + C&lt;/p&gt;
  &lt;blockquote&gt;
  &lt;p&gt;提示：修改 &lt;code&gt;data/links.json&lt;/code&gt; 后，通过 Decap CMS 的「友情链接数据」集合即可在后台维护。&lt;/p&gt;
 
- &lt;/blockquote&gt;</description></item><item><title>Markdown 写作示例</title><link>https://LianHua.github.io/posts/markdown-demo/</link><pubDate>Mon, 10 Aug 2026 20:00:00 +0800</pubDate><guid>https://LianHua.github.io/posts/markdown-demo/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=efadee15" alt="Featured image of post Markdown 写作示例" /&gt;&lt;h2 id="标题示例"&gt;&lt;a href="#%e6%a0%87%e9%a2%98%e7%a4%ba%e4%be%8b" class="header-anchor"&gt;&lt;/a&gt;标题示例
+ &lt;/blockquote&gt;</description></item><item><title>Markdown 写作示例</title><link>https://hitz.eu.org/posts/markdown-demo/</link><pubDate>Mon, 10 Aug 2026 20:00:00 +0800</pubDate><guid>https://hitz.eu.org/posts/markdown-demo/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=efadee15" alt="Featured image of post Markdown 写作示例" /&gt;&lt;h2 id="标题示例"&gt;&lt;a href="#%e6%a0%87%e9%a2%98%e7%a4%ba%e4%be%8b" class="header-anchor"&gt;&lt;/a&gt;标题示例
 &lt;/h2&gt;&lt;h3 id="三级标题"&gt;&lt;a href="#%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;三级标题
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;列表项一&lt;/li&gt;

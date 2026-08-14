@@ -17,7 +17,7 @@ backend:
   auth_endpoint: /auth
 
 # 站点地址（公开网页仓库的地址，用于预览等）
-site_url: https://LianHua.github.io/
+site_url: https://hitz.eu.org/
 
 # 媒体文件存放位置
 media_folder: "static/images/uploads"
